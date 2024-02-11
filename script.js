@@ -35,6 +35,8 @@ function handleYesClick() {
   }else{
     musica.pause();
   }
+  catImg.style.width = `30rem`;
+  catImg.style.height = `45rem`;
 }
 
 function resizeYesButton() {
